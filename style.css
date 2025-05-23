@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+header {
+    background-color: #640421;
+    color: #ffffff;
+    height: 50vh;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+header p {
+    color: bisque;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.sectionSobreNos,
+.sectionProdutos {
+    padding: 20px;
+    margin: 20px;
+}
+
+.sectionSobreNos p {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.produto {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    min-width: 200px;
+}
+
+h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
