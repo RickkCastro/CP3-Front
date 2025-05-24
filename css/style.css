@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	width: 100%;
+}
+
+header {
+	background-color: #640421;
+	color: #ffffff;
+	height: 50vh;
+	text-align: center;
+	padding: 40px;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+header p {
+	color: bisque;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 40px;
+}
+
+.sectionSobreNos,
+.sectionProdutos {
+	padding: 20px;
+	margin: 20px;
+}
+
+.sectionSobreNos p {
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 30px;
+	line-height: 1.5;
+}
+
+.produto {
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	min-width: 200px;
+}
+
+h5 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.produto img {
+	width: auto;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	padding: 50px 0;
+	background-color: #a0522d;
+	color: #f5f5dc;
+	font-size: 0.9em;
+}
+
+.item-button {
+	margin: 2rem 0px;
+	width: 50%;
+	color: #ecf0f1;
+	font-size: 17px;
+	background-color: #800020;
+	border: 1px solid #35010e;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	box-shadow: 0px 6px 0px #520015;
+}
+
+.item-button:hover {
+	background-color: #520015;
+	box-shadow: 0px 6px 0px #36000e;
+}
+
+.item-button:active {
+	box-shadow: 0px 2px 0px #800020;
+	position: relative;
+	top: 2px;
+}
+
+.produto:hover {
+	transform: scale(1.1);
+}
+
+.listaProdutos {
+	margin: 0px 5%;
+}
+
+.logo:hover {
+	transform: rotateZ(360deg);
+	transition: 1s;
+}

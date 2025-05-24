@@ -1,0 +1,17 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.listaProdutos {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.produto {
+	flex: 1;
+}
