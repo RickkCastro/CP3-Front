@@ -2,7 +2,7 @@
 
 ## 📝 Descrição
 
-Este projeto consiste em uma **página web responsiva**, desenvolvida como parte do **Check-Point 03** do curso, com o tema da **Vinharia Agnello**.
+Este projeto consiste em uma **página web responsiva**, desenvolvida como parte do **Check-Point 03** da materia de Frontend Design, com o tema da **Vinharia Agnello**.
 O objetivo é colocar em prática os conhecimentos adquiridos sobre **Flexbox**, **pseudo-classes CSS** e **transformações visuais**, criando um layout moderno, organizado e interativo.
 
 ## 🚀 Recursos aplicados
