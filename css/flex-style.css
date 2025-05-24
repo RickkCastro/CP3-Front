@@ -1,17 +1,26 @@
+/* ---------------------------- */
+/* Header com Flexbox           */
+/* ---------------------------- */
 header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	display: flex; /* Ativa o Flexbox */
+	justify-content: center; /* Centraliza os itens na horizontal */
+	align-items: center; /* Centraliza os itens na vertical */
+	flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
 }
 
+/* ---------------------------- */
+/* Lista de Produtos com Flexbox*/
+/* ---------------------------- */
 .listaProdutos {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	gap: 40px;
+	display: flex; /* Ativa o Flexbox */
+	justify-content: space-around; /* Espaçamento igual entre os itens */
+	flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo, tornando responsivo */
+	gap: 40px; /* Espaçamento entre os itens */
 }
 
+/* ---------------------------- */
+/* Produto como item flexível   */
+/* ---------------------------- */
 .produto {
-	flex: 1;
+	flex: 1; /* Faz o card de produto ocupar o máximo de espaço disponível */
 }
